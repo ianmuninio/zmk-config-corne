@@ -22,35 +22,35 @@
                 &kp TAB     &kp Q   &kp W   &kp F       &kp P       &kp B                       &kp J       &kp L           &kp U           &kp Y   &kp SEMI    &kp BSPC
                 &kp LCTRL   &kp A   &kp R   &kp S       &kp T       &kp G                       &kp M       &kp N           &kp E           &kp I   &kp O       &kp SQT
                 &kp LSHFT   &kp Z   &kp X   &kp C       &kp D       &kp V                       &kp K       &kp H           &kp COMMA       &kp DOT &kp FSLH    &kp RET
-                                            &kp LALT    &kp LGUI    &lt ARROW_LAYER SPACE       &kp SPACE   &mo NUM_LAYER   &mo FUNC_LAYER
+                                            &kp LALT    &kp LGUI    &lt DEFAULT_LAYER SPACE       &kp SPACE   &none &none
             >;  
         };
 
-        arrow_layer {
-            bindings = <
-                &kp ESC &none       &none       &none       &none       &none               &kp K_PREV  &kp K_VOL_UP    &kp UP      &kp K_VOL_DOWN  &kp K_NEXT  &kp K_PLAY_PAUSE
-                &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT  &none               &none       &kp LEFT        &kp DOWN    &kp RIGHT       &none       &kp K_MUTE
-                &none   &none       &none       &none       &none       &none               &none       &none           &none       &none           &none       &none
-                                                &none       &none       &none               &none       &none           &none
-            >;
-        };
+        // arrow_layer {
+        //     bindings = <
+        //         &kp ESC &none       &none       &none       &none       &none               &kp K_PREV  &kp K_VOL_UP    &kp UP      &kp K_VOL_DOWN  &kp K_NEXT  &kp K_PLAY_PAUSE
+        //         &none   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT  &none               &none       &kp LEFT        &kp DOWN    &kp RIGHT       &none       &kp K_MUTE
+        //         &none   &none       &none       &none       &none       &none               &none       &none           &none       &none           &none       &none
+        //                                         &none       &none       &none               &none       &none           &none
+        //     >;
+        // };
 
-        num_layer {
-            bindings = <
-                &kp ESC &kp LBRC    &kp N7  &kp N8  &kp N9  &kp RBRC                    &none   &none       &none       &none       &none       &none
-                &none   &kp SEMI    &kp N4  &kp N5  &kp N6  &kp EQUAL                   &none   &kp RSHIFT  &kp RCTRL   &kp RALT    &kp RGUI    &none
-                &none   &kp GRAVE   &kp N1  &kp N2  &kp N3  &kp BACKSLASH               &none   &none       &none       &none       &none       &none
-                                            &kp DOT &kp N0  &kp MINUS                   &none   &none       &none
-            >;
-        };
+        // num_layer {
+        //     bindings = <
+        //         &kp ESC &kp LBRC    &kp N7  &kp N8  &kp N9  &kp RBRC                    &none   &none       &none       &none       &none       &none
+        //         &none   &kp SEMI    &kp N4  &kp N5  &kp N6  &kp EQUAL                   &none   &kp RSHIFT  &kp RCTRL   &kp RALT    &kp RGUI    &none
+        //         &none   &kp GRAVE   &kp N1  &kp N2  &kp N3  &kp BACKSLASH               &none   &none       &none       &none       &none       &none
+        //                                     &kp DOT &kp N0  &kp MINUS                   &none   &none       &none
+        //     >;
+        // };
 
-        func_layer {
-            bindings = <
-                &kp ESC &kp F12 &kp F7  &kp F8  &kp F9  &none               &none   &none       &none       &none       &none       &none
-                &none   &kp F11 &kp F4  &kp F5  &kp F6  &none               &none   &kp RSHIFT  &kp RCTRL   &kp RALT    &kp RGUI    &none
-                &none   &kp F10 &kp F1  &kp F2  &kp F3  &none               &none   &none       &none       &none       &none       &none
-                                        &none   &none   &none               &none   &none       &none
-            >;
-        };
+        // func_layer {
+        //     bindings = <
+        //         &kp ESC &kp F12 &kp F7  &kp F8  &kp F9  &none               &none   &none       &none       &none       &none       &none
+        //         &none   &kp F11 &kp F4  &kp F5  &kp F6  &none               &none   &kp RSHIFT  &kp RCTRL   &kp RALT    &kp RGUI    &none
+        //         &none   &kp F10 &kp F1  &kp F2  &kp F3  &none               &none   &none       &none       &none       &none       &none
+        //                                 &none   &none   &none               &none   &none       &none
+        //     >;
+        // };
     };
 };
