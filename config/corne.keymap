@@ -28,7 +28,7 @@
 
         arrow_layer {
             bindings = <
-                &kp TAB     &kp Q   &kp W   &kp F       &kp P       &kp B                       &kp J       &kp L           &kp U           &kp Y   &kp SEMI    &kp BSPC
+                &kp ESC &none       &none       &none       &none       &none               &kp K_PREV  &kp K_VOL_UP    &kp UP      &kp K_VOL_DOWN  &kp K_NEXT  &kp K_PLAY_PAUSE
                 &kp LCTRL   &kp A   &kp R   &kp S       &kp T       &kp G                       &kp M       &kp N           &kp E           &kp I   &kp O       &kp SQT
                 &kp LSHFT   &kp Z   &kp X   &kp C       &kp D       &kp V                       &kp K       &kp H           &kp COMMA       &kp DOT &kp FSLH    &kp RET
                                             &kp LALT    &kp LGUI    &lt ARROW_LAYER SPACE       &kp SPACE   &none &none
