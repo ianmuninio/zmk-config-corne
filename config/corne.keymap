@@ -18,9 +18,16 @@
     combos {
         compatible = "zmk,combos";
 
-        Symbol {
+        Settings {
+            bindings = <&mo 6>;
+            key-positions = <38 39>;
+        };
+
+        Symbols {
             bindings = <&mo 4>;
-            key-positions = <40 39>;
+            key-positions = <40 23>;
+            timeout-ms = <0>;
+            layers = <>;
         };
     };
 
@@ -57,7 +64,7 @@
         Number {
             bindings = <
 &none   &kp LBKT  &kp N7   &kp N8  &kp N9       &kp RBKT    &none       &none      &none     &none     &none  &none
-&none   &kp SEMI  &kp N4   &kp N5  &kp N6      &kp EQUAL    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &none
+&none   &kp SEMI  &kp N4   &kp N5  &kp N6      &kp EQUAL    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &mo 4
 &none  &kp GRAVE  &kp N1   &kp N2  &kp N3  &kp BACKSLASH    &none       &none      &none     &none     &none  &none
                           &kp DOT  &kp N0      &kp MINUS    &none       &none      &none
             >;
@@ -74,10 +81,19 @@
 
         Function {
             bindings = <
-&none  &kp F12  &kp F7            &kp F8             &kp F9  &none           &none         &none         &none         &none         &none     &kp F14
-&none  &kp F11  &kp F4            &kp F5             &kp F6  &none           &none    &kp RSHIFT     &kp RCTRL      &kp RALT      &kp RGUI       &none
-&none  &kp F10  &kp F1            &kp F2             &kp F3  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-                        &ext_power EP_ON  &ext_power EP_OFF  &none           &none         &none         &none
+&none  &kp F12  &kp F7  &kp F8  &kp F9  &none    &none       &none      &none     &none     &none  &none
+&none  &kp F11  &kp F4  &kp F5  &kp F6  &none    &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &none
+&none  &kp F10  &kp F1  &kp F2  &kp F3  &none    &none       &none      &none     &none     &none  &none
+                         &none   &none  &none    &none       &none      &none
+            >;
+        };
+
+        Settings {
+            bindings = <
+&bootloader  &none  &none  &none         &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 3  &none  &none  &none  &none  &bootloader
+      &none  &none  &none  &none   &ext_power EP_ON  &bt BT_SEL 1    &bt BT_SEL 4  &none  &none  &none  &none        &none
+      &none  &none  &none  &none  &ext_power EP_OFF  &bt BT_SEL 2           &none  &none  &none  &none  &none        &none
+                           &none              &none         &none           &none  &none  &none
             >;
         };
     };
