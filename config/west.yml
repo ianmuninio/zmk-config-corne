@@ -2,16 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: infused-kim
-      url-base: https://github.com/infused-kim
+    - name: ianmuninio
+      url-base: https://github.com/ianmuninio
   projects:
-    # - name: zmk
-    #   remote: zmkfirmware
-    #   revision: main
-    #   import: app/west.yml
-    - name: zmk
-      remote: infused-kim
-      revision: testing/power-domain
+    - name: zephyr
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
