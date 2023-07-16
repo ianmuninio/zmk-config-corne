@@ -3,9 +3,9 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   projects:
-    - name: zmk
+    - name: zephyr
       remote: zmkfirmware
-      revision: main
+      revision: v2.5.0+zmk-fixes+kim-fixes
       import: app/west.yml
   self:
     path: config
