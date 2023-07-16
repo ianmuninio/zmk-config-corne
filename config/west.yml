@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: ianmuninio
+      url-base: https://github.com/ianmuninio
   projects:
-    - name: zephyr
-      remote: zmkfirmware
-      revision: v2.5.0+zmk-fixes+kim-fixes
+    - name: zmk-zephyr
+      remote: ianmuninio
+      revision: v2.5.0+zmk-fixes
       import: app/west.yml
   self:
     path: config
