@@ -5,7 +5,7 @@ manifest:
     - name: ianmuninio
       url-base: https://github.com/ianmuninio
   projects:
-    - name: zephyr
+    - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
