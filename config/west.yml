@@ -6,7 +6,7 @@ manifest:
       url-base: https://github.com/ianmuninio
   projects:
     - name: zmk
-      remote: ianmuninio
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
