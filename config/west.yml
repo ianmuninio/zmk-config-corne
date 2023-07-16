@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ianmuninio
-      url-base: https://github.com/ianmuninio
   projects:
     - name: zmk
       remote: zmkfirmware
