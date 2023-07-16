@@ -33,9 +33,9 @@
 
         Base {
             bindings = <
-  &kp TAB  &kp Q  &kp W     &kp F     &kp P        &kp B          &kp J  &kp L      &kp U    &kp Y  &kp SEMI  &kp BSPC
-&kp LCTRL  &kp A  &kp R     &kp S     &kp T        &kp G          &kp M  &kp N      &kp E    &kp I     &kp O   &kp SQT
-&kp LSHFT  &kp Z  &kp X     &kp C     &kp D        &kp V          &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH   &kp RET
+  &kp TAB  &kp Q  &kp W     &kp F     &kp P  &kp B          &kp J  &kp L      &kp U    &kp Y  &kp SEMI  &kp BSPC
+&kp LCTRL  &kp A  &kp R     &kp S     &kp T  &kp G          &kp M  &kp N      &kp E    &kp I     &kp O   &kp SQT
+&kp LSHFT  &kp Z  &kp X     &kp C     &kp D  &kp V          &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH   &kp RET
                          &kp LALT  &kp LGUI  &mo 1    &lt 2 SPACE  &mo 3      &mo 5
             >;
         };
@@ -87,10 +87,10 @@
 
         Settings {
             bindings = <
-&bootloader  &none  &none            &none         &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 3  &rgb_ug RGB_COLOR_HSB(0,0,100)       &none  &none  &none  &bootloader
-      &none  &none  &bl BL_ON  &rgb_ug RGB_ON   &ext_power EP_ON  &bt BT_SEL 1    &bt BT_SEL 4                 &rgb_ug RGB_BRI  &bl BL_INC  &none  &none        &none
-      &none  &none  &bl BL_OFF       &rgb_ug RGB_OFF  &ext_power EP_OFF  &bt BT_SEL 2           &none                 &rgb_ug RGB_BRD  &bl BL_DEC  &none  &none        &none
-                                     &none              &none         &none           &none                           &none       &none
+&bootloader  &none       &none            &none         &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 3  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_EFF  &none  &none  &bootloader
+      &none  &none   &bl BL_ON   &rgb_ug RGB_ON   &ext_power EP_ON  &bt BT_SEL 1    &bt BT_SEL 4                 &rgb_ug RGB_BRI       &bl BL_INC  &none  &none        &none
+      &none  &none  &bl BL_OFF  &rgb_ug RGB_OFF  &ext_power EP_OFF  &bt BT_SEL 2           &none                 &rgb_ug RGB_BRD       &bl BL_DEC  &none  &none        &none
+                                          &none              &none         &none           &none                           &none            &none
             >;
         };
     };
